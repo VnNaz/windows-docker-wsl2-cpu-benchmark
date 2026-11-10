@@ -1,0 +1,14 @@
+# Locally built binaries and build artifacts
+*.exe
+*.o
+*.obj
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Fresh measurements, logs and temporary outputs
+results/
+results_article/
+figures_check/
+*.stderr.txt
+_invalid_attempts/

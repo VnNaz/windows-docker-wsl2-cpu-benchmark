@@ -1,0 +1,29 @@
+﻿{
+    "started_at_utc":  "2026-11-04T14:32:12.6272416+00:00",
+    "source_sha256":  "BBFF314C977BEEDE6A30BD9A68DB1261CA0E8D2D0D8EA4EAE5B6334F5F74E63D",
+    "windows_exe_sha256":  "8460503B1704F64CF5150E16B38CFA5142BEE5D3A716EADC0B5FB18C9D8A8B5B",
+    "iterations":  1000000000,
+    "expected_rounds":  5,
+    "environments":  [
+                         "Windows",
+                         "Docker"
+                     ],
+    "operations":  [
+                       "int_add",
+                       "int_sub",
+                       "int_mul",
+                       "int_div",
+                       "double_add",
+                       "double_sub",
+                       "double_mul",
+                       "double_div"
+                   ],
+    "process_counts":  [
+                           1,
+                           8,
+                           16,
+                           24,
+                           32
+                       ],
+    "note":  "One operation per process; Windows/Docker order alternates by round."
+}
