@@ -44,8 +44,6 @@ The script coordinates concurrent launches, checks completeness and start delays
 - `data/experiment_manifest.json` — original experimental parameters and hashes of the benchmark C++ source and Windows executable.
 - `figures/` — generated figures for the lab report.
 
-Records from unsuccessful launch attempts and empty stderr logs are excluded from this publication bundle. The original experiment archive is retained separately.
-
 To recompute summaries, extract `data/raw_measurements.zip` to `data/raw_measurements/`, then run:
 
 ```powershell
